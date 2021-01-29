@@ -1,3 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+import React from 'react';
 import fs from 'fs';
 import NextImage from 'next/image';
 import styled from 'styled-components';
@@ -47,14 +51,17 @@ export default function ContributorsPage({ contributors }) {
             <h1 style={{ fontSize: '25px' }}>Galeria de Projetos</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Estamos muito felizes de contar com a sua participação, confira todos os outros projetos criados durante essa imersão!</p>
+            <p>
+              Estamos muito felizes de contar com a sua participação, confira
+              todos os outros projetos criados durante essa imersão!
+            </p>
           </Widget.Content>
         </Widget>
 
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
             gridGap: '1em',
           }}
         >
