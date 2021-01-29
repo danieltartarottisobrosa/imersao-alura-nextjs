@@ -2,6 +2,7 @@
   "bg": "/bg.jpg",
   "title": "Quiz Mestre do Áudio",
   "description": "Teste os seus conhecimentos sobre Áudio Analógico",
+  "repo": "https://github.com/danieltartarottisobrosa/imersao-alura-nextjs",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
